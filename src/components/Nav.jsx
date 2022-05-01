@@ -5,7 +5,7 @@ import SideMenu from "./SideMenu";
 function Nav() {
   //write code here
   const tabs = [
-    { title: "Home", href: "/" },
+    { title: "Home", href: "#header" },
     { title: "About", href: "#about" },
     { title: "Services", href: "#services" },
     { title: "Pricing", href: "#pricing" },
@@ -13,7 +13,7 @@ function Nav() {
   ];
   return (
     <div className="nav-container">
-      <nav className="h-20 container mx-auto flex justify-between items-center">
+      <nav className="h-20 container flex justify-between items-center">
         <Link to="/" className="h-full py-4">
           <img src={logo} alt="Magic&Fun logo" className="h-full" />
         </Link>
@@ -28,7 +28,7 @@ function Nav() {
             </Link>
           ))}
         </ul>
-        <SideMenu />
+        <SideMenu tabs={tabs} />
       </nav>
     </div>
   );

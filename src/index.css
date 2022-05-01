@@ -1,11 +1,4 @@
+@import "./style/style.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html {
-  @apply scroll-smooth;
-}
-
-.nav-container {
-  @apply w-screen h-20 bg-red-800 px-2 md:px-0;
-}
