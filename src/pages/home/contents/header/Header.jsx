@@ -13,7 +13,10 @@ function Header() {
   return (
     <header className="home-header">
       <div>
-        <p>Hello</p>
+        <div className="header-label">
+          <p className="header-label-company-name">Magic & Fun</p>
+          <p className="header-label-slogan">Bring happiness, bring us</p>
+        </div>
       </div>
     </header>
   );

@@ -1,13 +1,12 @@
-import "./App.css";
 import Nav from "./components/Nav";
 import { ChakraProvider } from "@chakra-ui/react";
-import Home from "./pages/home/Home";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <ChakraProvider>
       <Nav />
-      <Home />
+      <Outlet />
     </ChakraProvider>
   );
 }

@@ -1,0 +1,35 @@
+html {
+  @apply scroll-smooth overflow-x-hidden;
+}
+
+.home-header {
+  height: calc(100vh - theme("height.20"));
+  @apply w-screen overflow-hidden
+    bg-bgS md:bg-bgL bg-no-repeat bg-cover
+    flex items-end;
+}
+
+.home-header > div {
+  @apply container h-auto z-10 pb-8 pl-4 md:pl-0;
+}
+
+.header-label {
+  @apply rounded-2xl
+  w-3/4 md:w-2/4 h-auto 
+  bg-red-800/80
+  text-center
+  p-3 md:p-6;
+}
+
+.header-label-company-name {
+  @apply text-4xl font-extrabold text-yellow-400 drop-shadow-sm
+  md:text-7xl;
+}
+
+.header-label-slogan {
+  @apply tracking-[0.5px] text-lg text-yellow-100
+  md:text-3xl md:mt-3 md:tracking-[4px];
+}
+.nav-container {
+  @apply w-screen h-20 bg-red-800 px-4 md:px-0;
+}
