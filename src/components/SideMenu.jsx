@@ -8,7 +8,6 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../imgs/mf-logo.png";
 
 function SideMenu({ tabs }) {
@@ -48,14 +47,14 @@ function SideMenu({ tabs }) {
           <DrawerBody>
             <div className="grid grid-cols-1 gap-y-3 ">
               {tabs.map((tab, index) => (
-                <Link
-                  to={tab.href}
+                <a
+                  href={tab.href}
                   className="text-white text-lg"
                   key={index}
                   onClick={onClose}
                 >
                   <p>{tab.title}</p>
-                </Link>
+                </a>
               ))}
             </div>
           </DrawerBody>

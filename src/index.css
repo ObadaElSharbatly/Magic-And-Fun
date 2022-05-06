@@ -4,3 +4,8 @@
 
 @import "./style/header.css";
 @import "./style/about.css";
+@import "./style/services.css";
+
+.section-container {
+  @apply w-screen p-4 md:px-0;
+}

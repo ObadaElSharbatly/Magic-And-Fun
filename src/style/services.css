@@ -1,0 +1,45 @@
+#services {
+  @apply bg-red-800;
+}
+.services-section-container {
+  @apply container flex flex-col items-center text-center;
+}
+
+/* services title */
+
+.services-section-title h2 {
+  @apply text-6xl text-yellow-500 drop-shadow-lg;
+}
+
+.services-section-title p {
+  @apply text-white;
+}
+
+/* services' cards */
+.service-cards-container {
+  @apply md:flex md:gap-x-5;
+}
+
+.service-card {
+  @apply w-full mt-5 cursor-pointer
+  md:w-1/3;
+}
+
+.service-img {
+  @apply w-full rounded-xl border h-[220px] overflow-hidden
+  transition-all duration-500
+  group-hover:shadow-service;
+}
+
+.service-img img {
+  @apply object-cover
+  transition-all duration-500
+  group-hover:scale-150 group-hover:rotate-12;
+}
+
+.service-title {
+  @apply text-xl font-semibold mt-1
+  transition-all duration-500 
+  group-hover:text-yellow-500
+  group-hover:text-2xl;
+}

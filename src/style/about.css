@@ -1,0 +1,36 @@
+#about {
+  @apply text-xl;
+}
+
+.about-img {
+  @apply overflow-hidden rounded-lg;
+}
+
+#about h1 {
+  @apply text-4xl text-center font-bold;
+}
+
+#about p {
+  @apply text-justify;
+}
+
+#about li {
+  @apply text-orange-600 mb-6;
+}
+
+#about li span {
+  @apply text-2xl text-red-800
+  font-semibold 
+  underline underline-offset-1
+  mb-3
+  block;
+}
+
+@screen md {
+  .about-img {
+    @apply mr-4 mb-4 w-1/2;
+  }
+  #about h1 {
+    @apply text-left text-7xl;
+  }
+}

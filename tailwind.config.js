@@ -6,6 +6,9 @@ module.exports = {
         bgL: "url('../../src/imgs/BGhome.jpg')",
         bgS: "url('../../src/imgs/BGhomeSmall.jpg')",
       },
+      boxShadow: {
+        service: "0 0 10px 2px #eab308",
+      },
     },
     container: {
       center: true,

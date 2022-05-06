@@ -11,7 +11,7 @@ function Header() {
   }, [screenWidth]);
 
   return (
-    <header className="home-header">
+    <header className="home-header ">
       <div>
         <div className="header-label">
           <p className="header-label-company-name">Magic & Fun</p>
