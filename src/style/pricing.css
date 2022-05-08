@@ -2,24 +2,7 @@
   @apply bg-yellow-500;
 }
 
-.pricing-section-container {
-  min-height: calc(100vh - 100px);
-  @apply flex flex-col gap-y-8;
-}
-
 /* header */
-
-.bundles-section-header {
-  @apply text-center md:text-left;
-}
-.bundles-section-header h2 {
-  @apply text-7xl font-extrabold mb-5
-  md:text-8xl;
-}
-
-.bundles-section-header h3 {
-  @apply text-xl md:text-3xl;
-}
 
 /* bundles */
 .bundles-container {

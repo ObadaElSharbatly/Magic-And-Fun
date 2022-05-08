@@ -43,10 +43,10 @@ function Pricing() {
   ];
   return (
     <section id="pricing" className="section-container">
-      <div className="container pricing-section-container">
-        <div className="bundles-section-header">
-          <h2>Pricing</h2>
-          <h3>select your favorite package for next event</h3>
+      <div className="section-content-container">
+        <div className="section-header">
+          <h2 className="text-red-800">Pricing</h2>
+          <h3>Select your favorite package for next event</h3>
         </div>
         <div className="bundles-container">
           {bundles?.map((bundle, index) => (

@@ -28,10 +28,12 @@ function Services() {
 
   return (
     <section id="services" className="section-container">
-      <div className="services-section-container">
-        <div className="services-section-title">
-          <h2>Services</h2>
-          <p>which will turn your next event to an amazing memory</p>
+      <div className="section-content-container">
+        <div className="section-header">
+          <h2 className="text-yellow-500">Services</h2>
+          <h3 className="text-white">
+            Which will turn your next event to an amazing memory
+          </h3>
         </div>
         <div className="service-cards-container">
           {servicesArr.map(service => (

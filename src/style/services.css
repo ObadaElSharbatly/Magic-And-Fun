@@ -1,9 +1,6 @@
 #services {
   @apply bg-red-800 z-10;
 }
-.services-section-container {
-  @apply container flex flex-col items-center text-center;
-}
 
 /* services title */
 
@@ -17,7 +14,7 @@
 
 /* services' cards */
 .service-cards-container {
-  @apply md:flex md:gap-x-5;
+  @apply md:flex md:gap-x-5 text-center;
 }
 
 .service-card {
