@@ -23,13 +23,13 @@ function About() {
         </div>
         <ol>
           <li>
-            <span>Decorating location</span>
+            <span>Decorating location</span> <br />
             This Step is important to make the place ready and amazing for
             audience. we are very careful about first impression that's why it's
             very important to make a style decoration for every event.
           </li>
           <li>
-            <span>Do our magic for audience</span>
+            <span>Do our magic for audience</span> <br />
             Doing our magic balloon and amazing science show etc.. will turn any
             event to an amazing memory which audience will memorize always ..
             Not only children but also adults as well.

@@ -1,5 +1,5 @@
 #about {
-  @apply text-xl;
+  @apply text-xl bg-yellow-400;
 }
 
 .about-img {
@@ -7,15 +7,19 @@
 }
 
 #about h1 {
-  @apply text-4xl text-center font-bold;
+  @apply text-4xl text-center font-bold text-red-800;
 }
 
 #about p {
   @apply text-justify;
 }
 
+#about ol {
+  @apply list-decimal list-inside;
+}
+
 #about li {
-  @apply text-orange-600 mb-6;
+  @apply mb-6;
 }
 
 #about li span {
@@ -23,7 +27,7 @@
   font-semibold 
   underline underline-offset-1
   mb-3
-  block;
+  inline-block;
 }
 
 @screen md {

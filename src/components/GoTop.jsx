@@ -14,7 +14,7 @@ function GoTop() {
       focus:shadow-none
       z-10"
     >
-      <i class="fa-solid fa-arrows-up-to-line text-white text-lg"></i>
+      <i className="fa-solid fa-arrows-up-to-line text-white fa-lg"></i>
     </a>
   );
 }
