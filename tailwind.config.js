@@ -8,7 +8,7 @@ module.exports = {
       },
       boxShadow: {
         service: "0 0 10px 2px #eab308",
-        pricing: "0 0 10px 2px #dc2626",
+        pricing: "0 0 10px 2px white",
       },
     },
     container: {

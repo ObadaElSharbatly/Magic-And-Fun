@@ -5,7 +5,7 @@ function BundleFeature({ text }) {
 
   return (
     <li>
-      <i className="fa-solid fa-circle-check"></i>
+      <i className="fa-regular fa-circle-check"></i>
       {text}
     </li>
   );
