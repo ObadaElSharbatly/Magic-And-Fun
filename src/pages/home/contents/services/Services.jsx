@@ -1,7 +1,7 @@
 import React from "react";
-import magicBalloon from "../../../../imgs/magic_balloons/IMG_4847.jpg";
-import decoration from "../../../../imgs/decoration/DSCN2399.jpg";
-import scienceShow from "../../../../imgs/science_show/IMG-20160329-WA0004.jpg";
+import magicBalloon from "../../../../imgs/magic_balloons/010.jpg";
+import decoration from "../../../../imgs/decoration/002.jpg";
+import scienceShow from "../../../../imgs/science_show/001.jpg";
 import ServiceCard from "./components/ServiceCard";
 function Services() {
   //write code here

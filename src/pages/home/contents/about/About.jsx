@@ -1,5 +1,5 @@
 import React from "react";
-import withAsian from "../../../../imgs/magic_balloons/IMG_4976.jpg";
+import withAsian from "../../../../imgs/magic_balloons/002.jpg";
 function About() {
   //write code here
 
