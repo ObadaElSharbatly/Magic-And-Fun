@@ -1,0 +1,6 @@
+.magic-balloons-page {
+  @apply container border py-5;
+}
+.magic-balloons-page > h1 {
+  @apply text-6xl font-bold;
+}

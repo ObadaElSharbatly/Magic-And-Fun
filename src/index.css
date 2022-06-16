@@ -7,6 +7,7 @@
 @import "./style/services.css";
 @import "./style/pricing.css";
 @import "./style/contacts.css";
+@import "./style/magic-balloons.css";
 
 .section-container {
   @apply w-screen p-4 md:px-0

@@ -50,7 +50,7 @@ function Contacts() {
 
         <div className="contacts-methods-container">
           {contacts?.map((contact, index) => (
-            <ContactMethod contact={contact} />
+            <ContactMethod key={index} contact={contact} />
           ))}
         </div>
       </div>

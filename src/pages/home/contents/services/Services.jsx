@@ -9,20 +9,17 @@ function Services() {
     {
       img: magicBalloon,
       title: "Magic balloons  ",
-      href: "/",
-      id: "001",
+      href: "/magicBalloons",
     },
     {
       img: decoration,
       title: "Decoration",
       href: "/",
-      id: "002",
     },
     {
       img: scienceShow,
       title: "Science show",
       href: "/",
-      id: "003",
     },
   ];
 
@@ -36,11 +33,12 @@ function Services() {
           </h3>
         </div>
         <div className="service-cards-container">
-          {servicesArr.map(service => (
+          {servicesArr.map((service, index) => (
             <ServiceCard
-              key={service.id}
+              key={index}
               src={service.img}
               title={service.title}
+              href={service.href}
             />
           ))}
         </div>
