@@ -8,10 +8,16 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import React from "react";
-import logo from "../imgs/mf-logo.png";
+import logo from "../imgs/logos/mf-logo.png";
+import { useNavigate, Link } from "react-router-dom";
 
 function SideMenu({ tabs }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const navigate = useNavigate();
+  const clickTab = () => {
+    navigate("/");
+    onClose();
+  };
 
   return (
     <>
@@ -46,16 +52,27 @@ function SideMenu({ tabs }) {
 
           <DrawerBody>
             <div className="grid grid-cols-1 gap-y-3 ">
-              {tabs.map((tab, index) => (
-                <a
-                  href={tab.href}
-                  className="text-white text-lg"
-                  key={index}
-                  onClick={onClose}
-                >
-                  <p>{tab.title}</p>
-                </a>
-              ))}
+              {tabs.map((tab, index) =>
+                tab.title === "Home" ? (
+                  <Link
+                    key={index}
+                    to={tab.href}
+                    className="text-white text-lg"
+                    onClick={onClose}
+                  >
+                    <p>{tab.title}</p>
+                  </Link>
+                ) : (
+                  <a
+                    href={tab.href}
+                    className="text-white text-lg"
+                    key={index}
+                    onClick={clickTab}
+                  >
+                    <p>{tab.title}</p>
+                  </a>
+                )
+              )}
             </div>
           </DrawerBody>
         </DrawerContent>

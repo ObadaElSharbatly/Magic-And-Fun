@@ -1,7 +1,3 @@
-html {
-  @apply scroll-smooth overflow-x-hidden;
-}
-
 .home-header {
   height: calc(100vh - theme("height.20"));
   @apply w-screen overflow-hidden

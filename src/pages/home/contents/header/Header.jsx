@@ -1,14 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 function Header() {
   //write code here
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  function getScreenSize() {
-    setScreenWidth(window.innerWidth);
-  }
-  useEffect(() => {
-    window.addEventListener("resize", getScreenSize);
-    return () => window.removeEventListener("resize", getScreenSize);
-  }, [screenWidth]);
 
   return (
     <header className="home-header ">

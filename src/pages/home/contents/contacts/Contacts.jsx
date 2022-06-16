@@ -1,10 +1,10 @@
 import React from "react";
 import ContactMethod from "./components/ContactMethod";
-import whatsLogo from "../../../../imgs/whats-logo.png";
-import facebookLogo from "../../../../imgs/facebook_logo.png";
-import emailLogo from "../../../../imgs/email-logo.png";
-import youTubeLogo from "../../../../imgs/youTube-logo.png";
-import gitHubLogo from "../../../../imgs/github-logo.png";
+import whatsLogo from "../../../../imgs/logos/whats-logo.png";
+import facebookLogo from "../../../../imgs/logos/facebook_logo.png";
+import emailLogo from "../../../../imgs/logos/email-logo.png";
+import youTubeLogo from "../../../../imgs/logos/youTube-logo.png";
+import gitHubLogo from "../../../../imgs/logos/github-logo.png";
 function Contacts() {
   //write code here
   const contacts = [

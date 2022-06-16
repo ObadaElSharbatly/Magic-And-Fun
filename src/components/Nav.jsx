@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../imgs/mf-logo.png";
+import logo from "../imgs/logos/mf-logo.png";
 import SideMenu from "./SideMenu";
 function Nav() {
   //write code here

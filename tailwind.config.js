@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        bgL: "url('../../src/imgs/BGhome.jpg')",
-        bgS: "url('../../src/imgs/BGhomeSmall.jpg')",
+        bgL: "url('../../src/imgs/magic_balloons/BGhome.jpg')",
+        bgS: "url('../../src/imgs/magic_balloons/BGhomeSmall.jpg')",
       },
       boxShadow: {
         service: "0 0 10px 2px #eab308",
