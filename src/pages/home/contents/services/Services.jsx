@@ -1,7 +1,7 @@
 import React from "react";
 import magicBalloon from "../../../../imgs/magic_balloons/010.jpg";
 import decoration from "../../../../imgs/decoration/002.jpg";
-import scienceShow from "../../../../imgs/science_show/001.jpg";
+import scienceShow from "../../../../imgs/science_show/015.jpg";
 import ServiceCard from "./components/ServiceCard";
 function Services() {
   //write code here
@@ -14,12 +14,12 @@ function Services() {
     {
       img: decoration,
       title: "Decoration",
-      href: "/",
+      href: "/decoration",
     },
     {
       img: scienceShow,
       title: "Science show",
-      href: "/",
+      href: "/science-show",
     },
   ];
 

@@ -1,11 +1,36 @@
+// this image slider is from tailwind-elements and I refactored it to be more flexable with react
+// https://tailwind-elements.com/docs/standard/components/gallery/
 import React from "react";
-
 import SlideImage from "./SlideImage";
 import SlideIndicator from "./SlideIndicator";
-
-function ImageSlider({ imagesArr }) {
+import firstPhoto from "../../imgs/magic_balloons/001.jpg";
+import secondPhoto from "../../imgs/magic_balloons/002.jpg";
+import thirdPhoto from "../../imgs/magic_balloons/003.jpg";
+import fourthPhoto from "../../imgs/magic_balloons/004.jpg";
+function ImageSlider() {
   // this components expects an images array and should have these keys {img, title, label}
-
+  const images = [
+    {
+      img: firstPhoto,
+      title: "Quality and confidence",
+      label: "",
+    },
+    {
+      img: secondPhoto,
+      label: "Unforgettable memory ",
+      title: "Let all children happy when they select their favorite sculpture",
+    },
+    {
+      img: thirdPhoto,
+      label: "Nice moments",
+      title: "Take beautiful pictures for your kids",
+    },
+    {
+      img: fourthPhoto,
+      label: "Not only for children",
+      title: "Adults also enjoy the magic balloon and may ask for themselves",
+    },
+  ];
   return (
     <div
       id="carouselExampleCaptions"
@@ -14,13 +39,13 @@ function ImageSlider({ imagesArr }) {
     >
       <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
         {/* produce a button for every image */}
-        {imagesArr?.map((image, index) => (
+        {images?.map((image, index) => (
           <SlideIndicator key={index} index={index} />
         ))}
       </div>
       <div className="carousel-inner relative w-full overflow-hidden">
         {/* produce a slide image for every image with details */}
-        {imagesArr?.map((img, index) => (
+        {images?.map((img, index) => (
           <SlideImage
             key={index}
             img={img.img}
