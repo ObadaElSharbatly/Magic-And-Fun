@@ -41,5 +41,5 @@
 }
 
 .nav-tab {
-  @apply flex-auto h-full text-center pt-6 text-yellow-400 text-lg font-bold hover:bg-black transition duration-500 rounded-lg;
+  @apply flex-auto h-full text-center pt-6 text-yellow-400 text-lg font-bold hover:bg-black transition-all duration-500 rounded-lg;
 }
