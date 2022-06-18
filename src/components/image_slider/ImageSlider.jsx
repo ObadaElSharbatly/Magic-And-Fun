@@ -3,30 +3,26 @@
 import React from "react";
 import SlideImage from "./SlideImage";
 import SlideIndicator from "./SlideIndicator";
-import firstPhoto from "../../imgs/magic_balloons/001.jpg";
-import secondPhoto from "../../imgs/magic_balloons/002.jpg";
-import thirdPhoto from "../../imgs/magic_balloons/003.jpg";
-import fourthPhoto from "../../imgs/magic_balloons/004.jpg";
 function ImageSlider() {
   // this components expects an images array and should have these keys {img, title, label}
   const images = [
     {
-      img: firstPhoto,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/magic_balloons/001_pfmqrg.jpg",
       title: "Quality and confidence",
       label: "",
     },
     {
-      img: secondPhoto,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546045/magic_and_fun/magic_balloons/002_ks8il7.jpg",
       label: "Unforgettable memory ",
       title: "Let all children happy when they select their favorite sculpture",
     },
     {
-      img: thirdPhoto,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546038/magic_and_fun/magic_balloons/003_ecfwmz.jpg",
       label: "Nice moments",
       title: "Take beautiful pictures for your kids",
     },
     {
-      img: fourthPhoto,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546038/magic_and_fun/magic_balloons/004_ypkuth.jpg",
       label: "Not only for children",
       title: "Adults also enjoy the magic balloon and may ask for themselves",
     },

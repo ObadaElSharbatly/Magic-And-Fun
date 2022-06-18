@@ -1,5 +1,4 @@
 import React from "react";
-import withAsian from "../../../../imgs/magic_balloons/002.jpg";
 function About() {
   //write code here
 
@@ -8,7 +7,10 @@ function About() {
       <div className="container">
         <div className="about-section-header">
           <div className="about-img">
-            <img src={withAsian} alt="with asian girl" />
+            <img
+              src="https://res.cloudinary.com/obada/image/upload/v1655546045/magic_and_fun/magic_balloons/002_ks8il7.jpg"
+              alt="with asian girl"
+            />
           </div>
           <div className="md:w-1/2">
             <h2>About us</h2>

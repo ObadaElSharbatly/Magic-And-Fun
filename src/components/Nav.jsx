@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../imgs/logos/mf-logo.png";
 import SideMenu from "./SideMenu";
 function Nav() {
   //write code here
@@ -20,7 +19,11 @@ function Nav() {
     <div className="nav-container" id="top">
       <nav>
         <Link to="/" className="h-full py-4">
-          <img src={logo} alt="Magic andFun logo" className="h-full" />
+          <img
+            src="https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/logos/mf-logo_yiehtm.png"
+            alt="Magic andFun logo"
+            className="h-full"
+          />
         </Link>
         <ul className="nav-tabs-container">
           {tabs.map((tab, index) =>

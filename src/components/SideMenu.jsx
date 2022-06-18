@@ -8,7 +8,6 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import React from "react";
-import logo from "../imgs/logos/mf-logo.png";
 import { useNavigate, Link } from "react-router-dom";
 
 function SideMenu({ tabs }) {
@@ -42,7 +41,7 @@ function SideMenu({ tabs }) {
           <DrawerCloseButton color="white" size="lg" top="4" />
           <DrawerHeader textColor="yellow.300">
             <img
-              src={logo}
+              src="https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/logos/mf-logo_yiehtm.png"
               alt="Magic&Fun logo"
               width={70}
               className="inline-block mr-5"

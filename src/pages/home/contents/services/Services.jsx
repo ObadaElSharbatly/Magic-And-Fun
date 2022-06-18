@@ -1,23 +1,20 @@
 import React from "react";
-import magicBalloon from "../../../../imgs/magic_balloons/010.jpg";
-import decoration from "../../../../imgs/decoration/002.jpg";
-import scienceShow from "../../../../imgs/science_show/015.jpg";
 import ServiceCard from "./components/ServiceCard";
 function Services() {
   //write code here
   const servicesArr = [
     {
-      img: magicBalloon,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546038/magic_and_fun/magic_balloons/010_kdo5ei.jpg",
       title: "Magic balloons  ",
       href: "/magicBalloons",
     },
     {
-      img: decoration,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/decoration/006_qqufzu.jpg",
       title: "Decoration",
       href: "/decoration",
     },
     {
-      img: scienceShow,
+      img: "https://res.cloudinary.com/obada/image/upload/v1655546034/magic_and_fun/science_show/015_xrag1x.jpg",
       title: "Science show",
       href: "/science-show",
     },
