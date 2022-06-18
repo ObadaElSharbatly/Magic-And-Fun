@@ -14,8 +14,7 @@
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "tw-elements": "^1.0.0-alpha12",
-    "web-vitals": "^2.1.4"
+    "tw-elements": "^1.0.0-alpha12"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.5",
     "postcss": "^8.4.13",
     "postcss-cli": "^9.1.0",
     "postcss-import": "^14.1.0",
