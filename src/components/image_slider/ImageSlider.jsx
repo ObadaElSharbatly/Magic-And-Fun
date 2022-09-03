@@ -7,22 +7,22 @@ function ImageSlider() {
   // this components expects an images array and should have these keys {img, title, label}
   const images = [
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/magic_balloons/001_pfmqrg.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546037/magic_and_fun/magic_balloons/001_pfmqrg.jpg",
       title: "Quality and confidence",
       label: "",
     },
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546045/magic_and_fun/magic_balloons/002_ks8il7.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546045/magic_and_fun/magic_balloons/002_ks8il7.jpg",
       label: "Unforgettable memory ",
       title: "Let all children happy when they select their favorite sculpture",
     },
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546038/magic_and_fun/magic_balloons/003_ecfwmz.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546038/magic_and_fun/magic_balloons/003_ecfwmz.jpg",
       label: "Nice moments",
       title: "Take beautiful pictures for your kids",
     },
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546038/magic_and_fun/magic_balloons/004_ypkuth.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546038/magic_and_fun/magic_balloons/004_ypkuth.jpg",
       label: "Not only for children",
       title: "Adults also enjoy the magic balloon and may ask for themselves",
     },
