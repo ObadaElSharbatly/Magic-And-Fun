@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        bgL: "url('https://res.cloudinary.com/obada/image/upload/v1655546041/magic_and_fun/magic_balloons/BGhome_ryfgur.jpg')",
-        bgS: "url('https://res.cloudinary.com/obada/image/upload/v1655546041/magic_and_fun/magic_balloons/BGhomeSmall_jqfgby.jpg')",
+        bgL: "url('https://res.cloudinary.com/elsharbatly/image/upload/v1655546041/magic_and_fun/magic_balloons/BGhome_ryfgur.jpg')",
+        bgS: "url('https://res.cloudinary.com/elsharbatly/image/upload/v1655546041/magic_and_fun/magic_balloons/BGhomeSmall_jqfgby.jpg')",
       },
       boxShadow: {
         service: "0 0 10px 2px #eab308",

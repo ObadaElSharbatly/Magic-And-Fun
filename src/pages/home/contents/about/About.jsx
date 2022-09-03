@@ -8,7 +8,7 @@ function About() {
         <div className="about-section-header">
           <div className="about-img">
             <img
-              src="https://res.cloudinary.com/obada/image/upload/v1655546045/magic_and_fun/magic_balloons/002_ks8il7.jpg"
+              src="https://res.cloudinary.com/elsharbatly/image/upload/v1655546045/magic_and_fun/magic_balloons/002_ks8il7.jpg"
               alt="with asian girl"
             />
           </div>

@@ -20,7 +20,7 @@ function Nav() {
       <nav>
         <Link to="/" className="h-full py-4">
           <img
-            src="https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/logos/mf-logo_yiehtm.png"
+            src="https://res.cloudinary.com/elsharbatly/image/upload/v1655546037/magic_and_fun/logos/mf-logo_yiehtm.png"
             alt="Magic andFun logo"
             className="h-full"
           />

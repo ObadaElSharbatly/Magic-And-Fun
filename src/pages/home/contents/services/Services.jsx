@@ -4,17 +4,17 @@ function Services() {
   //write code here
   const servicesArr = [
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546038/magic_and_fun/magic_balloons/010_kdo5ei.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546038/magic_and_fun/magic_balloons/010_kdo5ei.jpg",
       title: "Magic balloons  ",
       href: "/magicBalloons",
     },
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546037/magic_and_fun/decoration/006_qqufzu.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546037/magic_and_fun/decoration/006_qqufzu.jpg",
       title: "Decoration",
       href: "/decoration",
     },
     {
-      img: "https://res.cloudinary.com/obada/image/upload/v1655546034/magic_and_fun/science_show/015_xrag1x.jpg",
+      img: "https://res.cloudinary.com/elsharbatly/image/upload/v1655546034/magic_and_fun/science_show/015_xrag1x.jpg",
       title: "Science show",
       href: "/science-show",
     },
